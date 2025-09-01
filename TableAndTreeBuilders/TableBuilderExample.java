@@ -45,7 +45,7 @@ public class TableBuilderExample extends AbstractComponentBuilder {
 
 		while (queryResultOfFindings.hasMoreElements()) {
 			part = (WTPart) queryResultOfFindings.nextElement();
-			part = (WTPart) VersionControlHelper.service.allIterationsOf(part.getMaster()).nextElement();
+			part = (WTPart) VersionControlHelper.service.allIterationsOf(part.getMaster()).nextElement();			
 			findingsList.add(part);
 		}
 		return findingsList;
@@ -72,11 +72,20 @@ public class TableBuilderExample extends AbstractComponentBuilder {
 		colNumber.setLabel("Number");
 		colNumber.setId("number");
 		tableConfig.addComponent(colNumber);
-
+		
 		ColumnConfig colIsEndItem = factory.newColumnConfig();
 		colIsEndItem.setLabel("End Items");
 		colIsEndItem.setId("endItem");
 		tableConfig.addComponent(colIsEndItem);
+
+		ColumnConfig colExperience = factory.newColumnConfig();
+		colExperience.setLabel("Experience");
+		colExperience.setId("experience");
+		colExperience.setDataUtilityId("CustomIBAForTableBuilder");
+		tableConfig.addComponent(colExperience);
+		
+		
+		
 
 		return tableConfig;
 	}
