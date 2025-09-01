@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listofactions SYSTEM "actions.dtd">
+<listofactions>
+
+	<objecttype name="wtDocumentLinkingAction" class="wt.part.WTPart" resourceBundle="ext.plural.util.WTDocumentAssociations.CustomWTDocumentAssociationsRB">
+		<action name="wtDocumentLinking">
+			<command windowType="popup" url="ext/plural/util/WTDocumentAssociations/WTDocumentAssociations.html"/>
+		</action>		
+	</objecttype>
+	
+	<objecttype name="additionServlet" class="wt.part.WTPart" resourceBundle="ext.test.AddActionRB">
+		<action name="addition">
+			<command windowType="popup" url="ext/test/Addition.html"/>
+		</action>		
+	</objecttype>
+	
+	<!-- Custom Action Introduced By Manikanta -->
+	
+	<objecttype name="CNManikanta" class="wt.part.WTPart" resourceBundle="ext.plural.resource.ManikantaResourceRB">
+		<!-- Start Part Rename Action -->
+		<action name="CNRename" preloadWizardPage="false">
+			<command class="ext.plural.formprocessor.InitiateRenameCNFormProcessor" windowType="popup" url="/netmarkets/jsp/ext/plural/rename/pluralRename.jsp"/>
+		</action>
+		
+		<action name="CNRename_Step">
+			<command windowType="wizard_step" url="/netmarkets/jsp/ext/plural/rename/pluralRename_Step.jsp"/>
+		</action>
+	</objecttype>
+	
+	<!-- Custom Action Introduced By Manikanta for Table Builder -->
+	
+	<objecttype name="tableBuilder" class="wt.part.WTPart" >
+	
+		<action name="TableBuilder" >
+			<command windowType="popup" url="/netmarkets/jsp/custombuilders/TableTreeBuilder.jsp" class="ext.plural.builders.TableBuilderFormProcessor" method="execute"/>
+				<label>Display TableBuilders/TreeBuilders</label>
+		</action>
+		
+		<action name="ShowTableWizardStep" >
+			<component name="ext.plural.builders.TableBuilderExample" windowType="page"/>
+		</action>
+		
+		<action name="ShowTreeWizardStep" >
+			<component name="ext.plural.builders.TreeBuilderExample" windowType="page"/>
+		</action>	
+		
+	</objecttype>
+	
+
+</listofactions>
