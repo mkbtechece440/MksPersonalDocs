@@ -1,0 +1,145 @@
+// * Get Metadata: Access the Metadata in the CAD Document Management Domain ** //
+
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/CADDocumentMgmt/$metadata
+
+
+// ** Fetch a Nonce Token: Set the URL and Authorization in Postman **
+
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/PTC/GetCSRFToken()
+
+
+
+// ** Get Object ID for a Part: Get Parts in Postman **
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/ProdMgmt/Parts?%24select=Name,View&%24filter=startswith(Name%2C'Grandma') and View eq 'Manufacturing'&%24count=false
+
+
+
+// ** Retrieve the Ingredients List: Set the URL in Postman **
+
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/ProdMgmt/Parts('OR:wt.part.WTPart:1519303')/PTC.ProdMgmt.GetPartStructure?$expand=Components($expand=Part($select=Name,Number),PartUse,Occurrence;$levels=max)
+
+
+
+// ** Test and Visualize Responses: Add a Test in Postman **
+
+let template = `
+<style type="text/css">
+        .tftable {font-size:14px;color:#333333;width:100%;border-width: 1px;border-color: #87ceeb;border-collapse: collapse;}
+        .tftable th {font-size:18px;background-color:#87ceeb;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;text-align:left;}
+        .tftable tr {background-color:#ffffff;}
+        .tftable td {font-size:14px;border-width: 1px;padding: 8px;border-style: solid;border-color: #87ceeb;}
+        .tftable tr:hover {background-color:#e0ffff;}
+    </style>
+
+    <h2>Pizza Order 004: Grandma Pie - {{response.PartId}}</h2>
+    
+    <table class="tftable" border="1">
+        <tr>
+            <th>Ingredients Needed</th>
+            <th>Item Number</th>
+            <th>Quantity</th>
+            <th>Units</th>
+        </tr>
+
+        {{#each response.Components}}
+            <tr>
+                <td>{{PartName}}</td>
+                <td>{{PartNumber}}</td>
+                <td>{{PartUse.Quantity}}</td>
+                <td>{{PartUse.Unit.Display}}</td>
+            </tr>
+        {{/each}}
+    </table>
+`;
+
+// Set visualizer
+pm.visualizer.set(template, {
+    // Pass the response body parsed as JSON as a simple table
+    response: pm.response.json()
+});
+
+
+
+// ** Retrieve the Process Plan for the Grandma Pie: Set the URL for the Process Plan in Postman **
+
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/MfgProcMgmt/ProcessPlans('OR:com.ptc.windchill.mpml.processplan.MPMProcessPlan:1519760')/OperationUsageLinks?$expand=Operation&$orderby=OperationLabel
+
+
+// ** Retrieve the Latest Version of a Process Plan: Set the URL in Postman **
+
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/v5/MfgProcMgmt/ProcessPlans?ptc.search.latestversion=true
+
+
+// ** Retrieve the Process Plan by a Different User: Request the Process Plan as an Authorized User **
+
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/MfgProcMgmt/ProcessPlans('OR:com.ptc.windchill.mpml.processplan.MPMProcessPlan:1519760')/OperationUsageLinks?$expand=Operation&$orderby=OperationLabel
+
+
+
+// ** Set for Delivery: Set the URL in Postman **
+
+http://ptc-training.ptc.com:8181//Windchill/servlet/odata/ProdMgmt/Parts('OR:wt.part.WTPart:1519303')/PTC.ProdMgmt.SetState
+
+
+// ** Set for Delivery: Set the Request Body **
+
+{
+"State": { "Display": "Released" ,"Value": "RELEASED" }
+}
+
+
+
+// ** Create Multiple Parts: Set the URL in Postman **
+
+http://ptc-training.ptc.com:8181/Windchill/servlet/odata/ProdMgmt/CreateParts
+
+
+
+// ** Create Multiple Parts: Set the Request Body **
+
+{
+    "Parts": [
+        {
+            "@odata.type": "#PTC.ProdMgmt.Part",
+            "Name": "Topping, Vegan Pepperoni",
+            "EndItem": false,
+            "GatheringPart": false,
+            "PhantomManufacturingPart": false,
+            "AssemblyMode": {
+                "Value": "inseparable"
+            },
+            "DefaultUnit": {
+                "Value": "ea"
+            },
+            "DefaultTraceCode": {
+                "Value": "X"
+            },
+            "Source": {
+                "Value": "buy"
+            },
+            "ObjectType": "Part",
+            "Folder@odata.bind": "Folders('OR:wt.folder.SubFolder:1515681')"
+        },
+        {
+            "@odata.type": "#PTC.ProdMgmt.Part",
+            "Name": "Topping, Vegan Cheese",
+            "EndItem": false,
+            "GatheringPart": false,
+            "PhantomManufacturingPart": false,
+            "AssemblyMode": {
+                "Value": "inseparable"
+            },
+            "DefaultUnit": {
+                "Value": "ea"
+            },
+            "DefaultTraceCode": {
+                "Value": "X"
+            },
+            "Source": {
+                "Value": "buy"
+            },
+            "ObjectType": "Part",
+            "Folder@odata.bind": "Folders('OR:wt.folder.SubFolder:1515681')"
+        }
+    ]
+}
