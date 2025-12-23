@@ -1,0 +1,3129 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List
+href="Windchill%20Developer-Muddana%20Sai_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Windchill%20Developer-Muddana%20Sai_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Microsoft account</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Manikanta Babu</o:LastAuthor>
+  <o:Revision>57</o:Revision>
+  <o:TotalTime>16</o:TotalTime>
+  <o:Created>2024-02-05T08:59:00Z</o:Created>
+  <o:LastSaved>2025-12-23T08:31:00Z</o:LastSaved>
+  <o:Pages>5</o:Pages>
+  <o:Words>894</o:Words>
+  <o:Characters>5101</o:Characters>
+  <o:Lines>42</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>5984</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData
+href="Windchill%20Developer-Muddana%20Sai_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="Windchill%20Developer-Muddana%20Sai_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-IN</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:14.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:14.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:239172485;
+	mso-list-template-ids:-731362262;}
+@list l0:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:270171049;
+	mso-list-template-ids:-1569798064;}
+@list l1:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:345209079;
+	mso-list-template-ids:-1144481440;}
+@list l2:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:430517991;
+	mso-list-template-ids:1123436630;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:436217817;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1585810200 2085799718 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l4:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l5
+	{mso-list-id:660936260;
+	mso-list-template-ids:-230764200;}
+@list l5:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l5:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6
+	{mso-list-id:796411324;
+	mso-list-template-ids:352631616;}
+@list l6:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l6:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l7
+	{mso-list-id:919413891;
+	mso-list-template-ids:-1160368168;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l7:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l8
+	{mso-list-id:1056129199;
+	mso-list-template-ids:1857092042;}
+@list l8:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l8:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9
+	{mso-list-id:1074860387;
+	mso-list-template-ids:-2044954526;}
+@list l9:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l9:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l10
+	{mso-list-id:1109857708;
+	mso-list-template-ids:374523436;}
+@list l10:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l10:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l10:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l10:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l10:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l10:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l10:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l10:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l10:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l11
+	{mso-list-id:1398363839;
+	mso-list-template-ids:1040729166;}
+@list l11:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l11:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l11:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l11:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l11:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l11:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l11:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l11:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l11:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l12
+	{mso-list-id:1512911652;
+	mso-list-template-ids:-1826958168;}
+@list l12:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l12:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l13
+	{mso-list-id:1706366574;
+	mso-list-template-ids:968885038;}
+@list l13:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l13:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l13:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l13:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l13:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l13:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l13:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l13:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l13:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l14
+	{mso-list-id:1757436424;
+	mso-list-template-ids:1794652004;}
+@list l14:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l14:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l14:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l14:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l14:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l14:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l14:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l14:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l14:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l15
+	{mso-list-id:1757480471;
+	mso-list-template-ids:-1483684440;}
+@list l15:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l15:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16
+	{mso-list-id:1790124931;
+	mso-list-template-ids:69779030;}
+@list l16:level1
+	{mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l16:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l17
+	{mso-list-id:2028602987;
+	mso-list-template-ids:-556916522;}
+@list l17:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l17:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l17:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l17:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18
+	{mso-list-id:2095854834;
+	mso-list-template-ids:-935575150;}
+@list l18:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l18:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l18:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l18:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-IN style='tab-interval:36.0pt;word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=0 cellspacing=50 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:2.5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 2.5pt 2.5pt 2.5pt 2.5pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td style='padding:2.5pt 2.5pt 2.5pt 2.5pt'></td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+      <td width="10%" style='width:10.0%;padding:0cm 0cm 0cm 0cm'></td>
+      <td width="90%" style='width:90.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:15.0pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#15A0E7'>Muddana Sai (PTC
+      - Windchill &#8211; 6.5 yrs)</span><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#242424'><br>
+      &nbsp;</span><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424;mso-no-proof:
+      yes'><img width=7 height=7 id="_x0000_i1025"
+      src="https://teknikoz.com/assets/img/book.png"></span><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;&nbsp;Bachelor's in Electronics
+      &amp; Communication Engineering</span><span style='font-size:15.0pt;
+      font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#15A0E7'><o:p></o:p></span></p>
+      <p class=MsoNormal><u><span style='font-size:11.0pt;mso-bidi-font-size:
+      15.0pt;font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#15A0E7'>muddana.sai@teknikoz.com<o:p></o:p></span></u></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='mso-line-height-alt:0pt'><b><span
+      style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#15A0E7'>Highlights<o:p></o:p></span></b></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1'>
+      <td style='border:none;border-bottom:solid #15A0E7 1.0pt;mso-border-bottom-alt:
+      solid #15A0E7 .75pt;padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+     <tr style='mso-yfti-irow:2'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:3'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Windchill Developer with over 6+ years of experience in
+      PLM Windchill.<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='line-height:15.0pt'><span style='font-size:
+      10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='mso-line-height-alt:0pt'><b><span
+      style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#15A0E7'>Skills<o:p></o:p></span></b></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1'>
+      <td style='border:none;border-bottom:solid #15A0E7 1.0pt;mso-border-bottom-alt:
+      solid #15A0E7 .75pt;padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+     <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='mso-line-height-alt:0pt'><b><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>Primary Skills<o:p></o:p></span></b></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.0pt'>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l14 level1 lfo1;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;Windchill Upgrade<o:p></o:p></span></p>
+      </td>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l10 level1 lfo2;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;Windchill Customization <o:p></o:p></span></p>
+      </td>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'></td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='mso-line-height-alt:0pt'><b><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>Secondary Skills<o:p></o:p></span></b></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.0pt'>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l11 level1 lfo3;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;BOM Management <o:p></o:p></span></p>
+      </td>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l17 level1 lfo4;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;CAD Management <o:p></o:p></span></p>
+      </td>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l3 level1 lfo5;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;Change Management <o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.0pt'>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l7 level1 lfo6;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;Configuration Management <o:p></o:p></span></p>
+      </td>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l18 level1 lfo7;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;Windchill Business Admin <o:p></o:p></span></p>
+      </td>
+      <td width="30%" style='width:30.0%;padding:0cm 0cm 0cm 0cm;height:15.0pt'>
+      <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:
+      3.75pt;margin-left:47.25pt;text-indent:-18.0pt;mso-list:l13 level1 lfo8;
+      tab-stops:list 36.0pt'><![if !supportLists]><span style='font-size:10.0pt;
+      mso-bidi-font-size:10.5pt;font-family:Symbol;mso-fareast-font-family:
+      Symbol;mso-bidi-font-family:Symbol;color:#242424'><span style='mso-list:
+      Ignore'>&middot;<span style='font:7.0pt "Times New Roman"'> </span></span></span><![endif]><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>&nbsp;Windchill Workflow <o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+      <td style='padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='mso-line-height-alt:0pt'><b><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+      "Times New Roman";color:#242424'>Other Skills<o:p></o:p></span></b></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Experience
+           on Windchill 10.0, Windchill 11.0, Windchill 11.1, Windchill 11.2
+           and Windchill 12.0<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Project
+           Requirement Estimation Analysis<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Client
+           Relationship Management<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Excellent
+           Communication Skills<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Solid
+           background in managing different phases of Project<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Solid
+           background in support services<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Positive
+           attitude towards work<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>JAVA<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Basic
+           HTML<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Servlets<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>JSP<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Basic
+           JS<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Basic
+           JS AJAX<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Basic
+           JS JSON<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Oracle
+           Database<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>SQL
+           Database (On-premises and Azure)<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>MS
+           Office<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Custom
+           Action Creations<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Action
+           Validators<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Custom
+           Listeners development<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on Change Management workflow updates.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on Lifecycles<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on creating new life cycle states.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on creating new roles in Windchill.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on OIR&#8217;s<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on Type and Attribute Management<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on Info*Engines Administration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on Windchill Upgrades<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on Windchill CPS Installation<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Knowledge
+           on Windchill Rehost<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Windchill
+           DB User creation in Azure SQL<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Azure
+           SQL DB Import<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Created
+           custom reports to generate disposition values of Affected Objects on
+           Change Notice.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>QML
+           report to generate Pre-Review and Under Review tasks<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>ACL
+           Changes to allow rename of EPMDocuments, WTDocuments and WTParts<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Windchill
+           Banners<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Oracle
+           DB user creation and DB exports, imports<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Updated
+           the series file to include additional revisions<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Custom
+           Build Deployments and Validations<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Windchill
+           Organization name update<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Windchill
+           Loaders<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Setup
+           re-imaged Production Windchill to QA Windchill on another system<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Creo/SolidWorks
+           Check-In Checkout issues<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Index
+           search installation and configuration.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>SSL
+           &amp; Reverse proxy Configurations<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;line-height:11.25pt;mso-list:l0 level1 lfo9;
+           tab-stops:list 36.0pt'><span style='font-size:10.5pt;font-family:
+           "Arial",sans-serif;mso-fareast-font-family:"Times New Roman"'>Import
+           root and intermediate certificates to Java keystore<o:p></o:p></span></li>
+      </ol>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+     <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='mso-line-height-alt:0pt'><b><span
+      style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#15A0E7'>Projects<o:p></o:p></span></b></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1'>
+      <td style='border:none;border-bottom:solid #15A0E7 1.0pt;mso-border-bottom-alt:
+      solid #15A0E7 .75pt;padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+     <tr style='mso-yfti-irow:2'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:3'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>Windchill
+      11.0 upgrade to Windchill 11.2</span></strong><strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'> -
+      Electronic Industry</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Role:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Upgrade Engineer<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill Upgrade<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p style='margin-left:30.0pt'><span style='font-size:10.5pt;font-family:
+      "Arial",sans-serif;color:#242424'>Worked on:<o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Rehost<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Installation<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill CPS Updates<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Robocopy of vault files from machine to machine<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Run Upgrade Manager<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Source code copy from Dev to Target system<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Vault configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Configuration Assistant<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Creo Parametric Installation and Configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>WGM Installation and Configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>SSL configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l2 level1 lfo10;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Web proxy configuration<o:p></o:p></span></li>
+      </ol>
+      <p><strong><o:p>&nbsp;</o:p></strong></p>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>Windchill
+      11.0 upgrade to Windchill 12.0</span></strong><strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'> -
+      Manufacturing Industry</span></strong><span style='font-size:10.5pt'><o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Role:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Upgrade Engineer<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill Upgrade<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p style='margin-left:30.0pt'><span style='font-size:10.5pt;font-family:
+      "Arial",sans-serif;color:#242424'>Worked on:<o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Rehost<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Installation<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill CPS Updates<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Robocopy of vault files from machine to machine<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Run Upgrade Manager<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Source code copy from Dev to Target system<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Vault configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Configuration Assistant<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Creo Parametric Installation and Configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>WGM Installation and Configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l8 level1 lfo11;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>SSL configuration<o:p></o:p></span></li>
+      </ol>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>Windchill
+      12.0 upgrade to Windchill 13.0 </span>- </strong><strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'>Manufacturing
+      Industry</span></strong><strong><span style='font-family:"Arial",sans-serif;
+      color:#242424'><o:p></o:p></span></strong></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Role:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Upgrade Engineer<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill Upgrade<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p style='margin-left:30.0pt'><span style='font-size:10.5pt;font-family:
+      "Arial",sans-serif;color:#242424'>Worked on:<o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Rehost<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Installation<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill CPS Updates<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Robocopy of vault files from machine to machine<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Run Upgrade Manager<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Vault configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Index Search Installation and Configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>File Server Installation &amp; Configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Configuration Assistant<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Performance Tuning<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l5 level1 lfo18;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>SSL configuration<span style='mso-bidi-font-weight:
+           bold'><o:p></o:p></span></span></li>
+      </ol>
+      <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto'><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424;mso-bidi-font-weight:
+      bold'><o:p>&nbsp;</o:p></span></p>
+      <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto'><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424;mso-bidi-font-weight:
+      bold'><o:p>&nbsp;</o:p></span></p>
+      <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto'><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'><o:p>&nbsp;</o:p></span></p>
+      <p><strong><o:p>&nbsp;</o:p></strong></p>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>Windchill
+      11.1 M020 upgrade to Windchill 13.1 </span>&#8211; Automotive Industry</strong><strong><span
+      style='font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></strong></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Role:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Upgrade Engineer<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill Upgrade<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p style='margin-left:30.0pt'><span style='font-size:10.5pt;font-family:
+      "Arial",sans-serif;color:#242424'>Worked on:<o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Rehost<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Installation<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill CPS Updates<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Robocopy of vault files from machine to machine<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Run Upgrade Manager<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Vault configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Index Search Installation and Configuration<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Configuration Assistant<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Windchill Performance Tuning<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l12 level1 lfo19;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>SSL configuration<strong><span style='font-family:
+           "Arial",sans-serif;font-weight:normal;mso-bidi-font-weight:bold'><o:p></o:p></span></strong></span></li>
+      </ol>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>Bulk
+      CAD Upload Utility to Windchill 12.0</span></strong><strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'> -
+      Manufacturing Industry</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif'><o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill Customization<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Technology used in project:&nbsp;</span></strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'>Java,
+      Windchill API&#8217;s, SQL Database , WBM and OOTB WTPart creation
+      utility.<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p style='margin-left:30.0pt'><span style='font-size:10.5pt;font-family:
+      "Arial",sans-serif;color:#242424'>Worked on:<o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l6 level1 lfo12;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>EPM Document creation in Windchill.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l6 level1 lfo12;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Uploading primary content to the created EPM
+           Documents from local drive.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l6 level1 lfo12;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Created EPMMemberLinks between CAD Assemblies and
+           CAD Objects.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l6 level1 lfo12;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Created EPMReferenceLinks between CAD Parts to
+           CAD Parts and CAD Drawings.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l6 level1 lfo12;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Created WTParts using OOTB WTPart creation utility.<o:p></o:p></span></li>
+      </ol>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>SAP
+      File Generation from Change Notice Resulting Objects</span></strong><strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'> -
+      Manufacturing Industry</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill Customization<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Technology used in project:&nbsp;</span></strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'>Java
+      and Windchill API&#8217;s<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p style='margin-left:30.0pt'><span style='font-size:10.5pt;font-family:
+      "Arial",sans-serif;color:#242424'>Worked on:<o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l1 level1 lfo13;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Downloading the primary content of WTDocument
+           template from Windchill.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l1 level1 lfo13;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Generated the CSV file with WTPart and BOM
+           resulting objects attribute info from Change Notice.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l1 level1 lfo13;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Created the custom action &#8220;<strong><span
+           style='font-family:"Arial",sans-serif'>Publish to M3</span></strong>&#8221;
+           on Change Notice.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l1 level1 lfo13;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Developed the code to perform action validation
+           which shows/grey outs the action based on specific conditions.<o:p></o:p></span></li>
+      </ol>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>QMS
+      CAPA</span></strong><strong><span style='font-size:10.5pt;font-family:
+      "Arial",sans-serif;color:#242424'> - Manufacturing Industry</span></strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Role:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>IT Lead for Windchill<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill customizations
+      and configurations<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l9 level1 lfo14;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Change Management workflows.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l9 level1 lfo14;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Lifecycles<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l9 level1 lfo14;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Type and Attribute Management<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l9 level1 lfo14;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on ACL&#8217;s<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l9 level1 lfo14;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Info Engine Administration<o:p></o:p></span></li>
+      </ol>
+      <p><strong><span style='font-family:"Arial",sans-serif;color:#242424'>Phase
+      II Enhancements</span></strong><strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'> - Manufacturing Industry</span></strong><span
+      style='font-size:10.5pt;font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Role:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Engineer<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Work:&nbsp;</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'>Windchill customizations
+      and configurations<o:p></o:p></span></p>
+      <p><strong><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      color:#242424'>Description</span></strong><span style='font-size:10.5pt;
+      font-family:"Arial",sans-serif;color:#242424'><o:p></o:p></span></p>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l16 level1 lfo15;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Change Management workflows.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l16 level1 lfo15;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Lifecycles<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l16 level1 lfo15;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Type and Attribute Management<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l16 level1 lfo15;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on ACL&#8217;s<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l16 level1 lfo15;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on Data Utilities<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l16 level1 lfo15;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Worked on UI activities.<o:p></o:p></span></li>
+      </ol>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='line-height:15.0pt'><span style='font-size:
+      10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13;mso-yfti-lastrow:yes'>
+  <td width="100%" style='width:100.0%;padding:2.5pt 2.5pt 2.5pt 2.5pt'>
+  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+   style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:
+   0cm 0cm 0cm 0cm'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:0cm 0cm 0cm 0cm'>
+    <div align=center>
+    <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+     width="100%" style='width:100.0%;mso-cellspacing:0cm;mso-yfti-tbllook:
+     1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+     <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='mso-line-height-alt:0pt'><b><span
+      style='font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#15A0E7'>Awards<o:p></o:p></span></b></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:1'>
+      <td style='border:none;border-bottom:solid #15A0E7 1.0pt;mso-border-bottom-alt:
+      solid #15A0E7 .75pt;padding:0cm 0cm 0cm 0cm'></td>
+     </tr>
+     <tr style='mso-yfti-irow:2'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal><span style='font-size:10.5pt;font-family:"Arial",sans-serif;
+      mso-fareast-font-family:"Times New Roman";color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:3'>
+      <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+      <ol start=1 type=1>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l15 level1 lfo16;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Actively participated in college Tech Fest competition
+           held at Engineering Colleges.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l15 level1 lfo16;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Involved in various cultural activities held at
+           school and college level.<o:p></o:p></span></li>
+       <li class=MsoNormal style='color:#242424;mso-margin-top-alt:auto;
+           mso-margin-bottom-alt:auto;mso-list:l15 level1 lfo16;tab-stops:list 36.0pt'><span
+           style='font-size:10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:
+           "Times New Roman"'>Involved in cricket tournaments held at school
+           and college level.<o:p></o:p></span></li>
+      </ol>
+      </td>
+     </tr>
+     <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+      <td style='padding:0cm 0cm 0cm 0cm'>
+      <p class=MsoNormal style='line-height:15.0pt'><span style='font-size:
+      10.5pt;font-family:"Arial",sans-serif;mso-fareast-font-family:"Times New Roman";
+      color:#242424'>&nbsp;<o:p></o:p></span></p>
+      </td>
+     </tr>
+    </table>
+    </div>
+    </td>
+   </tr>
+  </table>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
